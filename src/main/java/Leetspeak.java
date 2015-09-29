@@ -4,7 +4,7 @@ public class Leetspeak {
   }
 
   public static String leetspeak(String babbling) {
-    String leeted = babbling.replaceAll("e", "3").replaceAll("o", "0");
+    String leeted = babbling.replaceAll("e", "3").replaceAll("o", "0").replaceAll("I", "1");
     return leeted;
   }
 }
