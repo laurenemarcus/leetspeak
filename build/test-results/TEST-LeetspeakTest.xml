@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LeetspeakTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-09-29T23:47:32" hostname="epicodus-111.local" time="0.001">
+<testsuite name="LeetspeakTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-09-29T23:53:26" hostname="epicodus-111.local" time="0.002">
   <properties/>
-  <testcase name="leetspeak_replacesEveryOInAStringWithA0_wordChanges" classname="LeetspeakTest" time="0.001"/>
+  <testcase name="leetspeak_replacesEverySInAStringWithAZ_wordChanges" classname="LeetspeakTest" time="0.001"/>
+  <testcase name="leetspeak_replacesEveryOInAStringWithA0_wordChanges" classname="LeetspeakTest" time="0.0"/>
   <testcase name="leetspeak_returnsAStringAsIsWhenNoLeetspeakIsPresent_wordDoesntChange" classname="LeetspeakTest" time="0.0"/>
   <testcase name="leetspeak_replacesEveryIInAStringWithA1_wordChanges" classname="LeetspeakTest" time="0.0"/>
   <testcase name="leetspeak_replacesEveryEInAStringWithA3_wordChanges" classname="LeetspeakTest" time="0.0"/>

@@ -25,4 +25,10 @@ public class LeetspeakTest {
     Leetspeak testLeetspeak = new Leetspeak();
     assertEquals("1 lik3 1k3", testLeetspeak.leetspeak("I like Ike"));
   }
+
+  @Test
+  public void leetspeak_replacesEverySInAStringWithAZ_wordChanges() {
+    Leetspeak testLeetspeak = new Leetspeak();
+    assertEquals("r0z3z ar3 r3d", testLeetspeak.leetspeak("roses are red"));
+  }
 }
