@@ -5,6 +5,18 @@ public class LeetspeakTest {
   @Test
   public void leetspeak_returnsAStringAsIsWhenNoLeetspeakIsPresent_wordDoesntChange() {
     Leetspeak testLeetspeak = new Leetspeak();
-    assertEquals("hello", testLeetspeak.leetspeak("hello"));
-}
+    assertEquals("happy", testLeetspeak.leetspeak("happy"));
+  }
+
+  @Test
+  public void leetspeak_replacesEveryEInAStringWithA3_wordChanges() {
+    Leetspeak testLeetspeak = new Leetspeak();
+    assertEquals("3l3phant", testLeetspeak.leetspeak("elephant"));
+  }
+
+  @Test
+  public void leetspeak_replacesEveryOInAStringWithA0_wordChanges() {
+    Leetspeak testLeetspeak = new Leetspeak();
+    assertEquals("b00 b00", testLeetspeak.leetspeak("boo boo"));
+  }
 }
